@@ -6,12 +6,12 @@
 </p>
 
 <p align="center">
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-2563eb?style=flat-square" alt="License: Apache-2.0"></a>
-  <a href="pyproject.toml"><img src="https://img.shields.io/badge/version-0.1.0-8b5cf6?style=flat-square" alt="Version: 0.1.0"></a>
-  <a href="https://github.com/gzcnb/so101-self-learning/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/gzcnb/so101-self-learning/checks.yml?branch=main&amp;style=flat-square&amp;label=checks" alt="Offline checks"></a>
-  <a href="docs/setup.md"><img src="https://img.shields.io/badge/robot-SO--101-06b6d4?style=flat-square" alt="Robot: SO-101"></a>
-  <a href="docs/setup.md"><img src="https://img.shields.io/badge/edge-Orange%20Pi%205%20Max-f97316?style=flat-square" alt="Edge: Orange Pi 5 Max"></a>
-  <a href="docs/setup.md"><img src="https://img.shields.io/badge/compute-NVIDIA%20GPU-76b900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="Compute: NVIDIA GPU"></a>
+  <a href="LICENSE"><img src="assets/badges/license.svg" alt="License: Apache-2.0"></a>
+  <a href="pyproject.toml"><img src="assets/badges/version.svg" alt="Version: 0.1.0"></a>
+  <a href="https://github.com/gzcnb/so101-self-learning/actions/workflows/checks.yml"><img src="https://github.com/gzcnb/so101-self-learning/actions/workflows/checks.yml/badge.svg?branch=main" alt="Offline checks"></a>
+  <a href="docs/setup.md"><img src="assets/badges/robot.svg" alt="Robot: SO-101"></a>
+  <a href="docs/setup.md"><img src="assets/badges/orange-pi.svg" alt="Edge: Orange Pi 5 Max"></a>
+  <a href="docs/setup.md"><img src="assets/badges/nvidia.svg" alt="Compute: NVIDIA GPU"></a>
 </p>
 
 <p align="center">

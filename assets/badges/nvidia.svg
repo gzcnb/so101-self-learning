@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="20" viewBox="0 0 150 20" role="img" aria-label="compute: NVIDIA GPU">
+  <title>compute: NVIDIA GPU</title>
+  <g shape-rendering="crispEdges">
+    <rect width="61" height="20" fill="#555"/>
+    <rect x="61" width="89" height="20" fill="#76b900"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="11">
+    <text x="30.5" y="14">compute</text>
+    <text x="105.5" y="14">NVIDIA GPU</text>
+  </g>
+</svg>

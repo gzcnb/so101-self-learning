@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="20" viewBox="0 0 96 20" role="img" aria-label="robot: SO-101">
+  <title>robot: SO-101</title>
+  <g shape-rendering="crispEdges">
+    <rect width="41" height="20" fill="#555"/>
+    <rect x="41" width="55" height="20" fill="#06b6d4"/>
+  </g>
+  <g fill="#fff" text-anchor="middle" font-family="Verdana, Geneva, DejaVu Sans, sans-serif" font-size="11">
+    <text x="20.5" y="14">robot</text>
+    <text x="68.5" y="14">SO-101</text>
+  </g>
+</svg>
