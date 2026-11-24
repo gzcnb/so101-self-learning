@@ -1,0 +1,16 @@
+{
+  "host": "",
+  "user": "robot",
+  "board_dir": "so101-workbench",
+  "remote_python": ".venv/bin/python",
+  "serial_port": "/dev/ttyACM0",
+  "fixed_camera": "/dev/video0",
+  "wrist_camera": "/dev/video2",
+  "profile_dir": "profiles/my-arm",
+  "state_dir": "runtime/console",
+  "web_port": 8765,
+  "vlm_dir": "models/qwen-vl",
+  "vlm_executable": "models/qwen-vl/llama-mtmd-cli",
+  "vlm_device": "CPU",
+  "enable_motion": false
+}

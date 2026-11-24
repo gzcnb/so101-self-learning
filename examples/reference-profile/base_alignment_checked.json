@@ -1,0 +1,38 @@
+{
+  "model": "so101_new_calib.urdf",
+  "paper_to_base_xy_mm": [
+    [
+      0.1863834198107026,
+      0.9824770841193537,
+      165.36043930462387
+    ],
+    [
+      -0.9824770841193537,
+      0.1863834198107026,
+      180.62005654107784
+    ]
+  ],
+  "candidate_table_height_in_base_mm": -3.89,
+  "encoder_zeros": {
+    "shoulder_pan": 2134.5,
+    "shoulder_lift": 2083.5,
+    "elbow_flex": 2077.5,
+    "wrist_flex": 1433.0,
+    "wrist_roll": 2047.5,
+    "gripper": 2781.0
+  },
+  "wrist_flex_zero_is_fit_from_two_points": true,
+  "fit_points": [
+    "upper_left_confirmed",
+    "lower_left_confirmed"
+  ],
+  "max_fit_error_xy_mm": 0.01,
+  "fit_height_range_mm": 2.98,
+  "independent_point": {
+    "label": "p3",
+    "distance_from_fit_line_mm": 41.68,
+    "xy_error_mm": 2.8,
+    "height_error_mm": 14.76
+  },
+  "usable_for_motion": false
+}

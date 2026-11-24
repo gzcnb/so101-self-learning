@@ -1,0 +1,20 @@
+[project]
+name = "so101-self-learning"
+version = "0.1.0"
+description = "Experimental SO-101 workbench with visual supervision, bounded retries, and online tracking compensation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "Apache-2.0"
+dependencies = [
+  "numpy>=1.26,<3",
+  "opencv-python-headless>=4.10,<5",
+  "paramiko>=3.4,<5",
+  "scipy>=1.12,<2",
+]
+
+[project.optional-dependencies]
+hardware = ["lerobot[feetech]"]
+policy = ["torch>=2.2"]
+
+[tool.uv]
+package = false

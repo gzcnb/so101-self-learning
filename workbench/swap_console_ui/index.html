@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>SO-101 工作台</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="frame header">
+    <div><span class="device">SO-101</span><h1>机械臂工作台</h1></div>
+    <span class="connection" id="connection"><i></i><span>正在连接相机</span></span>
+  </header>
+  <main class="frame">
+    <section class="cameras" aria-label="相机画面">
+      <figure><figcaption>固定相机 <span>桌面视角</span></figcaption><div class="feed"><img id="fixed" alt="固定相机的桌面画面"></div></figure>
+      <figure><figcaption>腕部相机 <span>夹爪视角</span></figcaption><div class="feed"><img id="wrist" alt="腕部相机的近景画面"></div></figure>
+    </section>
+    <div class="actions">
+      <section class="command">
+        <h2>给机械臂下指令</h2>
+        <form id="command-form">
+          <label for="instruction" class="visually-hidden">输入方块操作指令</label>
+          <textarea id="instruction" rows="2" maxlength="100" placeholder="把橙色和带圆纹的深灰色方块互换&#10;把橙色方块叠放在灰色方块上面" required></textarea>
+          <p class="instruction-note">执行前请让手离开工作区。</p>
+          <div class="buttons"><button class="primary" id="run" type="submit" disabled>执行指令</button><button class="quiet" id="resume" type="button" hidden>继续上次换位</button><button class="quiet" id="stop" type="button" disabled>本步结束后停止</button></div>
+          <p id="feedback" role="alert"></p>
+        </form>
+      </section>
+      <section class="progress">
+        <div class="progress-title"><h2>执行进度</h2><span id="step">0 / 3</span></div>
+        <progress id="progress" value="0" max="3"></progress>
+        <p id="message" aria-live="polite">准备就绪</p>
+        <ol id="events" aria-label="最近的执行记录"></ol>
+      </section>
+    </div>
+  </main>
+</body>
+</html>

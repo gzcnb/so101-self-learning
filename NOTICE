@@ -1,0 +1,11 @@
+SO-101 Self-Learning Workbench
+Copyright 2026 the project contributors.
+
+This distribution includes the SO-101 URDF and its referenced meshes from
+TheRobotStudio/SO-ARM100, distributed under the Apache License, Version 2.0.
+Upstream project https://github.com/TheRobotStudio/SO-ARM100
+See LICENSE and docs/provenance.md.
+
+The board controller uses Hugging Face LeRobot as an external dependency.
+The optional visual supervisor uses llama.cpp and separately supplied Qwen
+model weights. Those projects and model weights retain their own licenses.

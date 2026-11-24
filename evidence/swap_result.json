@@ -1,0 +1,31 @@
+{
+  "initial": {
+    "orange": [
+      306.3,
+      302.5
+    ],
+    "dark_gray": [
+      295.47,
+      361.4
+    ]
+  },
+  "final": {
+    "orange": [
+      297.8,
+      360.9
+    ],
+    "dark_gray": [
+      301.01,
+      302.3
+    ]
+  },
+  "temporary": [
+    349,
+    311
+  ],
+  "approximate_offsets_mm": {
+    "orange": 2.9,
+    "dark_gray": 6.8
+  },
+  "verified_existing_arrangement": false
+}

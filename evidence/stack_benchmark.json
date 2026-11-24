@@ -1,0 +1,42 @@
+{
+  "timestamp": "20261124_091826",
+  "n_rounds_planned": 3,
+  "rounds": [
+    {
+      "round": 1,
+      "layer2_ok": false,
+      "layer3_ok": false,
+      "tower_xy": null,
+      "error": "Orange grasp empty (jaw=2090)",
+      "gray_tip_mm": [
+        346.4,
+        112.6,
+        56.8
+      ],
+      "jaw_orange": 2090.0,
+      "temps_start": {
+        "shoulder_pan": 31,
+        "shoulder_lift": 32,
+        "elbow_flex": 31,
+        "wrist_flex": 31,
+        "wrist_roll": 32,
+        "gripper": 34
+      }
+    }
+  ],
+  "status": "completed",
+  "n_attempted": 1,
+  "layer2_succ": 0,
+  "layer3_succ": 0,
+  "layer2_rate_pct": 0.0,
+  "layer3_rate_pct": 0.0,
+  "video_frames": 301,
+  "max_loads": {
+    "shoulder_pan": 112.0,
+    "shoulder_lift": 350.0,
+    "elbow_flex": 350.0,
+    "wrist_flex": 76.0,
+    "wrist_roll": 36.0,
+    "gripper": 76.0
+  }
+}

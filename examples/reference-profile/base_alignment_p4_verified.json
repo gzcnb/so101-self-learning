@@ -1,0 +1,41 @@
+{
+  "label": "p4",
+  "feature_px": [
+    301.77,
+    338.54
+  ],
+  "paper_mm": [
+    194.38,
+    99.47
+  ],
+  "raw_positions": {
+    "shoulder_pan": 2130,
+    "shoulder_lift": 2109,
+    "elbow_flex": 2648,
+    "wrist_flex": 1442,
+    "wrist_roll": 1042,
+    "gripper": 2078
+  },
+  "fk_candidates_mm": {
+    "so101_new_calib/lerobot_range_midpoint": [
+      248.71,
+      11.52,
+      -29.42
+    ],
+    "so101_new_calib/encoder_half_turn": [
+      346.68,
+      -29.03,
+      99.81
+    ],
+    "so101_old_calib/lerobot_range_midpoint": [
+      32.83,
+      -311.49,
+      -140.9
+    ],
+    "so101_old_calib/encoder_half_turn": [
+      -17.2,
+      -401.25,
+      -16.12
+    ]
+  }
+}

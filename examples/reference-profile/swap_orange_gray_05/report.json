@@ -1,0 +1,919 @@
+{
+  "plan": {
+    "color": "orange",
+    "source_px": [
+      336,
+      314
+    ],
+    "target_px": [
+      292,
+      361
+    ],
+    "start": {
+      "shoulder_pan": 2061,
+      "shoulder_lift": 2014,
+      "elbow_flex": 2686,
+      "wrist_flex": 1482,
+      "wrist_roll": 1046,
+      "gripper": 2118
+    },
+    "pickup": [
+      [
+        2013,
+        2202,
+        2164,
+        1768
+      ],
+      [
+        2013,
+        2316,
+        2068,
+        1831
+      ],
+      [
+        2013,
+        2375,
+        2130,
+        1721
+      ],
+      [
+        2013,
+        2202,
+        2164,
+        1768
+      ]
+    ],
+    "destination": [
+      [
+        2171,
+        2016,
+        2395,
+        1723
+      ],
+      [
+        2171,
+        2100,
+        2363,
+        1751
+      ],
+      [
+        2171,
+        2198,
+        2387,
+        1640
+      ]
+    ],
+    "source_pan_adjustment_after_release_counts": -13,
+    "vision_retarget_delta_mm": [
+      -9.87,
+      -0.3
+    ],
+    "proof_pose": [
+      1962,
+      1989,
+      2459,
+      1658
+    ],
+    "proof_px": [
+      318,
+      270
+    ],
+    "park": [
+      2112,
+      2025,
+      2673,
+      1460
+    ]
+  },
+  "poses": [
+    {
+      "name": "rise",
+      "positions": {
+        "shoulder_pan": 2060,
+        "shoulder_lift": 1899,
+        "elbow_flex": 2689,
+        "wrist_flex": 1483,
+        "wrist_roll": 1046,
+        "gripper": 2119
+      },
+      "estimated_mm": [
+        [
+          6.1,
+          27.3,
+          52.1
+        ],
+        [
+          7.9,
+          27.7,
+          52.0
+        ],
+        [
+          13.0,
+          24.2,
+          44.9
+        ]
+      ]
+    },
+    {
+      "name": "clearance",
+      "positions": {
+        "shoulder_pan": 2048,
+        "shoulder_lift": 1861,
+        "elbow_flex": 2642,
+        "wrist_flex": 1580,
+        "wrist_roll": 1046,
+        "gripper": 2118
+      },
+      "estimated_mm": [
+        [
+          3.0,
+          31.6,
+          66.0
+        ],
+        [
+          7.5,
+          32.5,
+          64.3
+        ],
+        [
+          12.2,
+          28.3,
+          57.8
+        ]
+      ]
+    },
+    {
+      "name": "source_hover",
+      "positions": {
+        "shoulder_pan": 2011,
+        "shoulder_lift": 2205,
+        "elbow_flex": 2172,
+        "wrist_flex": 1769,
+        "wrist_roll": 1046,
+        "gripper": 2119
+      },
+      "estimated_mm": [
+        [
+          52.0,
+          55.5,
+          71.8
+        ],
+        [
+          61.7,
+          57.9,
+          67.2
+        ],
+        [
+          64.2,
+          51.3,
+          64.2
+        ]
+      ]
+    },
+    {
+      "name": "source_approach",
+      "positions": {
+        "shoulder_pan": 2011,
+        "shoulder_lift": 2321,
+        "elbow_flex": 2073,
+        "wrist_flex": 1832,
+        "wrist_roll": 1046,
+        "gripper": 2457
+      },
+      "estimated_mm": [
+        [
+          51.9,
+          55.5,
+          47.8
+        ],
+        [
+          62.5,
+          58.1,
+          41.2
+        ],
+        [
+          62.4,
+          50.9,
+          42.8
+        ]
+      ]
+    },
+    {
+      "name": "pick",
+      "positions": {
+        "shoulder_pan": 2013,
+        "shoulder_lift": 2375,
+        "elbow_flex": 2130,
+        "wrist_flex": 1726,
+        "wrist_roll": 1046,
+        "gripper": 2457
+      },
+      "estimated_mm": [
+        [
+          53.1,
+          54.8,
+          19.1
+        ],
+        [
+          60.3,
+          56.7,
+          13.5
+        ],
+        [
+          60.0,
+          49.6,
+          15.4
+        ]
+      ]
+    },
+    {
+      "name": "test_lift",
+      "positions": {
+        "shoulder_pan": 2011,
+        "shoulder_lift": 2220,
+        "elbow_flex": 2168,
+        "wrist_flex": 1769,
+        "wrist_roll": 1046,
+        "gripper": 2223
+      },
+      "estimated_mm": [
+        [
+          51.8,
+          55.5,
+          66.9
+        ],
+        [
+          61.3,
+          57.8,
+          62.1
+        ],
+        [
+          63.4,
+          51.2,
+          59.7
+        ]
+      ]
+    },
+    {
+      "name": "source_carry_clearance",
+      "positions": {
+        "shoulder_pan": 2011,
+        "shoulder_lift": 2220,
+        "elbow_flex": 2168,
+        "wrist_flex": 1769,
+        "wrist_roll": 1046,
+        "gripper": 2223
+      },
+      "estimated_mm": [
+        [
+          51.8,
+          55.5,
+          66.9
+        ],
+        [
+          61.3,
+          57.8,
+          62.1
+        ],
+        [
+          63.4,
+          51.2,
+          59.7
+        ]
+      ]
+    },
+    {
+      "name": "carry",
+      "positions": {
+        "shoulder_pan": 2172,
+        "shoulder_lift": 2028,
+        "elbow_flex": 2398,
+        "wrist_flex": 1722,
+        "wrist_roll": 1046,
+        "gripper": 2223
+      },
+      "estimated_mm": [
+        [
+          27.3,
+          -17.4,
+          70.6
+        ],
+        [
+          35.6,
+          -18.0,
+          66.4
+        ],
+        [
+          37.5,
+          -15.7,
+          63.5
+        ]
+      ]
+    },
+    {
+      "name": "pre_place",
+      "positions": {
+        "shoulder_pan": 2172,
+        "shoulder_lift": 2104,
+        "elbow_flex": 2370,
+        "wrist_flex": 1751,
+        "wrist_roll": 1046,
+        "gripper": 2223
+      },
+      "estimated_mm": [
+        [
+          21.3,
+          -17.0,
+          48.2
+        ],
+        [
+          29.5,
+          -17.7,
+          42.4
+        ],
+        [
+          28.8,
+          -15.2,
+          43.9
+        ]
+      ]
+    },
+    {
+      "name": "place",
+      "positions": {
+        "shoulder_pan": 2172,
+        "shoulder_lift": 2198,
+        "elbow_flex": 2390,
+        "wrist_flex": 1646,
+        "wrist_roll": 1046,
+        "gripper": 2223
+      },
+      "estimated_mm": [
+        [
+          26.4,
+          -17.3,
+          19.5
+        ],
+        [
+          31.5,
+          -17.8,
+          15.0
+        ],
+        [
+          30.4,
+          -15.3,
+          17.1
+        ]
+      ]
+    },
+    {
+      "name": "release_retreat",
+      "positions": {
+        "shoulder_pan": 2172,
+        "shoulder_lift": 2025,
+        "elbow_flex": 2398,
+        "wrist_flex": 1721,
+        "wrist_roll": 1046,
+        "gripper": 2457
+      },
+      "estimated_mm": [
+        [
+          27.7,
+          -17.4,
+          71.9
+        ],
+        [
+          36.1,
+          -18.1,
+          67.7
+        ],
+        [
+          38.1,
+          -15.7,
+          64.6
+        ]
+      ]
+    },
+    {
+      "name": "placement_inspection",
+      "positions": {
+        "shoulder_pan": 2049,
+        "shoulder_lift": 1861,
+        "elbow_flex": 2641,
+        "wrist_flex": 1581,
+        "wrist_roll": 1046,
+        "gripper": 2122
+      },
+      "estimated_mm": [
+        [
+          3.2,
+          31.2,
+          66.2
+        ],
+        [
+          7.7,
+          32.1,
+          64.4
+        ],
+        [
+          12.4,
+          28.0,
+          58.0
+        ]
+      ]
+    },
+    {
+      "name": "return_transfer",
+      "positions": {
+        "shoulder_pan": 2049,
+        "shoulder_lift": 1861,
+        "elbow_flex": 2641,
+        "wrist_flex": 1581,
+        "wrist_roll": 1046,
+        "gripper": 2122
+      },
+      "estimated_mm": [
+        [
+          3.2,
+          31.2,
+          66.2
+        ],
+        [
+          7.7,
+          32.1,
+          64.4
+        ],
+        [
+          12.4,
+          28.0,
+          58.0
+        ]
+      ]
+    },
+    {
+      "name": "return_above_home",
+      "positions": {
+        "shoulder_pan": 2106,
+        "shoulder_lift": 1923,
+        "elbow_flex": 2675,
+        "wrist_flex": 1471,
+        "wrist_roll": 1046,
+        "gripper": 2122
+      },
+      "estimated_mm": [
+        [
+          12.0,
+          9.6,
+          50.7
+        ],
+        [
+          13.4,
+          9.7,
+          50.8
+        ],
+        [
+          18.4,
+          8.6,
+          43.6
+        ]
+      ]
+    },
+    {
+      "name": "return_home",
+      "positions": {
+        "shoulder_pan": 2107,
+        "shoulder_lift": 2023,
+        "elbow_flex": 2677,
+        "wrist_flex": 1465,
+        "wrist_roll": 1046,
+        "gripper": 2122
+      },
+      "estimated_mm": [
+        [
+          -0.8,
+          8.6,
+          16.9
+        ],
+        [
+          -0.1,
+          8.8,
+          16.5
+        ],
+        [
+          1.1,
+          7.5,
+          14.6
+        ]
+      ]
+    }
+  ],
+  "vision": {
+    "clearance": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          325,
+          301,
+          23,
+          27
+        ],
+        "center_px": [
+          336.0,
+          313.8
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": null,
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            325,
+            301,
+            23,
+            27
+          ],
+          "center_px": [
+            336.0,
+            313.8
+          ]
+        }
+      ]
+    },
+    "hover_open": {
+      "fixed": null,
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          277,
+          355,
+          86,
+          88
+        ],
+        "center_px": [
+          319.2,
+          398.0
+        ]
+      },
+      "fixed_candidates": []
+    },
+    "approach_open": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          338,
+          301,
+          10,
+          25
+        ],
+        "center_px": [
+          343.2,
+          311.6
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          276,
+          346,
+          102,
+          115
+        ],
+        "center_px": [
+          326.2,
+          402.3
+        ]
+      },
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            338,
+            301,
+            10,
+            25
+          ],
+          "center_px": [
+            343.2,
+            311.6
+          ]
+        }
+      ]
+    },
+    "pick_open": {
+      "fixed": null,
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          246,
+          365,
+          153,
+          115
+        ],
+        "center_px": [
+          331.2,
+          424.7
+        ]
+      },
+      "fixed_candidates": []
+    },
+    "closed": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          338,
+          300,
+          10,
+          24
+        ],
+        "center_px": [
+          343.5,
+          311.5
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          241,
+          374,
+          147,
+          106
+        ],
+        "center_px": [
+          313.6,
+          427.7
+        ]
+      },
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            338,
+            300,
+            10,
+            24
+          ],
+          "center_px": [
+            343.5,
+            311.5
+          ]
+        }
+      ]
+    },
+    "test_lift": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          340,
+          280,
+          10,
+          26
+        ],
+        "center_px": [
+          345.1,
+          291.0
+        ]
+      },
+      "fixed_is_partial": true,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          241,
+          376,
+          142,
+          104
+        ],
+        "center_px": [
+          308.7,
+          423.1
+        ]
+      },
+      "fixed_candidates": []
+    },
+    "before_release": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          289,
+          337,
+          15,
+          27
+        ],
+        "center_px": [
+          296.5,
+          349.0
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          240,
+          373,
+          144,
+          107
+        ],
+        "center_px": [
+          313.6,
+          428.2
+        ]
+      },
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            289,
+            337,
+            15,
+            27
+          ],
+          "center_px": [
+            296.5,
+            349.0
+          ]
+        }
+      ]
+    },
+    "placed_a": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          276,
+          338,
+          28,
+          30
+        ],
+        "center_px": [
+          289.2,
+          352.5
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          395,
+          338,
+          96,
+          79
+        ],
+        "center_px": [
+          442.9,
+          377.8
+        ]
+      },
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            276,
+            338,
+            28,
+            30
+          ],
+          "center_px": [
+            289.2,
+            352.5
+          ]
+        }
+      ]
+    },
+    "placed_b": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          276,
+          338,
+          27,
+          30
+        ],
+        "center_px": [
+          289.3,
+          352.6
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          395,
+          338,
+          96,
+          80
+        ],
+        "center_px": [
+          442.8,
+          377.8
+        ]
+      },
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            276,
+            338,
+            27,
+            30
+          ],
+          "center_px": [
+            289.3,
+            352.6
+          ]
+        }
+      ]
+    },
+    "reset": {
+      "fixed": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          276,
+          337,
+          28,
+          31
+        ],
+        "center_px": [
+          289.4,
+          352.8
+        ]
+      },
+      "fixed_is_partial": false,
+      "wrist": {
+        "id": "orange_candidate_1",
+        "description": "橙色候选物体",
+        "box_px": [
+          366,
+          277,
+          135,
+          117
+        ],
+        "center_px": [
+          433.7,
+          336.6
+        ]
+      },
+      "fixed_candidates": [
+        {
+          "id": "orange_candidate_1",
+          "description": "橙色候选物体",
+          "box_px": [
+            276,
+            337,
+            28,
+            31
+          ],
+          "center_px": [
+            289.4,
+            352.8
+          ]
+        }
+      ]
+    }
+  },
+  "grasp_check": {
+    "reward": 1,
+    "fixed_shift_px": 24.55,
+    "wrist_shift_px": 6.72,
+    "fixed_lift_partly_occluded": true
+  },
+  "placement": {
+    "verified": true,
+    "target_px": [
+      292,
+      361
+    ],
+    "observed_px": [
+      289.3,
+      352.6
+    ],
+    "source_before_px": [
+      336.0,
+      313.8
+    ]
+  }
+}

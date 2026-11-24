@@ -1,0 +1,52 @@
+{
+  "model": "so101_new_calib.urdf",
+  "encoder_zeros": {
+    "shoulder_pan": 2134.5,
+    "shoulder_lift": 2083.5,
+    "elbow_flex": 2182.2707760102926,
+    "wrist_flex": 1242.5244976655779,
+    "wrist_roll": 2047.5,
+    "gripper": 2781.0
+  },
+  "fitted_joints": [
+    "elbow_flex",
+    "wrist_flex"
+  ],
+  "paper_to_base_xy_mm": [
+    [
+      0.1863763023225364,
+      0.9824784343346059,
+      167.4842282552645
+    ],
+    [
+      -0.9824784343346059,
+      0.1863763023225364,
+      179.7466991507526
+    ]
+  ],
+  "table_height_in_base_mm": 1.85,
+  "fit_points": {
+    "upper_left_confirmed": {
+      "xy_error_mm": 3.74,
+      "signed_height_error_mm": -1.4
+    },
+    "lower_left_confirmed": {
+      "xy_error_mm": 4.6,
+      "signed_height_error_mm": -4.31
+    },
+    "p3": {
+      "xy_error_mm": 4.54,
+      "signed_height_error_mm": 3.55
+    },
+    "p3_repeat": {
+      "xy_error_mm": 3.26,
+      "signed_height_error_mm": 2.16
+    }
+  },
+  "independent_point": {
+    "label": "p4",
+    "xy_error_mm": 17.72,
+    "signed_height_error_mm": -6.55
+  },
+  "usable_for_motion": false
+}
