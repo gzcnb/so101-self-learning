@@ -1,8 +1,26 @@
-# SO-101 Self-Learning Workbench
+<h1 align="center">SO-101 Self-Learning</h1>
 
-**让机械臂从自己的真实试错中积累经验，逐步学会完成一句话交代的任务。**
+<p align="center">
+  <strong>大模型监督下的真机自主学习</strong><br>
+  让机械臂从自己的真实试错中积累经验，逐步学会完成一句话交代的任务。
+</p>
 
-[English](README.en.md) · [自学习设计](docs/self-learning.md) · [实测与局限](docs/results.md) · [安装与标定](docs/setup.md) · [参与开发](docs/roadmap.md)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-2563eb?style=flat-square" alt="License: Apache-2.0"></a>
+  <a href="pyproject.toml"><img src="https://img.shields.io/badge/version-0.1.0-8b5cf6?style=flat-square" alt="Version: 0.1.0"></a>
+  <a href="https://github.com/gzcnb/so101-self-learning/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/gzcnb/so101-self-learning/checks.yml?branch=main&amp;style=flat-square&amp;label=checks" alt="Offline checks"></a>
+  <a href="docs/setup.md"><img src="https://img.shields.io/badge/robot-SO--101-06b6d4?style=flat-square" alt="Robot: SO-101"></a>
+  <a href="docs/setup.md"><img src="https://img.shields.io/badge/edge-Orange%20Pi%205%20Max-f97316?style=flat-square" alt="Edge: Orange Pi 5 Max"></a>
+  <a href="docs/setup.md"><img src="https://img.shields.io/badge/compute-NVIDIA%20GPU-76b900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="Compute: NVIDIA GPU"></a>
+</p>
+
+<p align="center">
+  <a href="README.en.md">English</a> ·
+  <a href="docs/self-learning.md">自学习设计</a> ·
+  <a href="docs/results.md">实测与局限</a> ·
+  <a href="docs/setup.md">安装与标定</a> ·
+  <a href="docs/roadmap.md">参与开发</a>
+</p>
 
 你在网页输入“把橙色方块叠在灰色方块上”。机械臂通过相机找到目标，尝试抓取和叠放，检查结果，再利用本次经验改进下一次动作。下一次换了物块位置，或重新启动系统，它应当能继续使用已经学到的能力。
 

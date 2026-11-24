@@ -1,8 +1,26 @@
-# SO-101 Self-Learning Workbench
+<h1 align="center">SO-101 Self-Learning</h1>
 
-**Help a robot build reusable manipulation skills from its own physical trials and failures.**
+<p align="center">
+  <strong>Real-world learning under vision-language supervision</strong><br>
+  Help a robot build reusable manipulation skills from its own physical trials and failures.
+</p>
 
-[中文](README.md) · [Learning design, Chinese](docs/self-learning.md) · [Results](docs/results.md) · [Setup](docs/setup.md) · [Roadmap](docs/roadmap.md)
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache--2.0-2563eb?style=flat-square" alt="License: Apache-2.0"></a>
+  <a href="pyproject.toml"><img src="https://img.shields.io/badge/version-0.1.0-8b5cf6?style=flat-square" alt="Version: 0.1.0"></a>
+  <a href="https://github.com/gzcnb/so101-self-learning/actions/workflows/checks.yml"><img src="https://img.shields.io/github/actions/workflow/status/gzcnb/so101-self-learning/checks.yml?branch=main&amp;style=flat-square&amp;label=checks" alt="Offline checks"></a>
+  <a href="docs/setup.md"><img src="https://img.shields.io/badge/robot-SO--101-06b6d4?style=flat-square" alt="Robot: SO-101"></a>
+  <a href="docs/setup.md"><img src="https://img.shields.io/badge/edge-Orange%20Pi%205%20Max-f97316?style=flat-square" alt="Edge: Orange Pi 5 Max"></a>
+  <a href="docs/setup.md"><img src="https://img.shields.io/badge/compute-NVIDIA%20GPU-76b900?style=flat-square&amp;logo=nvidia&amp;logoColor=white" alt="Compute: NVIDIA GPU"></a>
+</p>
+
+<p align="center">
+  <a href="README.md">中文</a> ·
+  <a href="docs/self-learning.md">Learning design, Chinese</a> ·
+  <a href="docs/results.md">Results</a> ·
+  <a href="docs/setup.md">Setup</a> ·
+  <a href="docs/roadmap.md">Roadmap</a>
+</p>
 
 The intended interaction is simple. Type “stack the orange block on the gray block” into a web console. The arm finds the objects, attempts the task, checks the outcome, and uses that experience to improve its next attempt. A later session should reuse the learned behavior, including when object positions change.
 
